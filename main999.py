@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 def comboclick(event):
     z=cb.get()
-    prnt = label("enter the value of a \nenter the value of b")
+    prnt = Label(windows, text=z)
     prnt.pack()
 
 window=Tk()
