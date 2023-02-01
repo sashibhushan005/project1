@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-def comboclick(event):
+def comboclick():
     z=cb.get()
     prnt = Label(windows, text=z)
     prnt.pack()
